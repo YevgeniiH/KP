@@ -1,6 +1,6 @@
 package service;
 
-import domain.Trip;
+import model.Trip;
 
 public interface ITripService extends IBaseService<Trip>{
 

@@ -1,6 +1,6 @@
 package service;
 
-import domain.Driver;
+import model.Driver;
 
 public interface IDriverService extends IBaseService<Driver>{
 

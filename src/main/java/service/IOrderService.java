@@ -1,6 +1,6 @@
 package service;
 
-import domain.Order;
+import model.Order;
 
 public interface IOrderService extends IBaseService<Order>{
 	

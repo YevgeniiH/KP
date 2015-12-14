@@ -1,6 +1,6 @@
 package service;
 
-import domain.CompInfo;
+import model.CompInfo;
 
 public interface ICompInfoService extends IBaseService<CompInfo>{
 

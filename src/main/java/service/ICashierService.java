@@ -1,6 +1,6 @@
 package service;
 
-import domain.Cashier;
+import model.Cashier;
 
 public interface ICashierService extends IBaseService<Cashier>{
 
