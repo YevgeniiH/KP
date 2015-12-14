@@ -52,8 +52,8 @@ Ext.define("Ext.locale.zh_TW.tab.Tab", {
     closeText: "關閉此標籤"
 });
 
-Ext.define("Ext.locale.zh_TW.form.field.Base", {
-    override: "Ext.form.field.Base",
+Ext.define("Ext.locale.zh_TW.form.field.Bus", {
+    override: "Ext.form.field.Bus",
     invalidText: "數值不符合欄位規定"
 });
 

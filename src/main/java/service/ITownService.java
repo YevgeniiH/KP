@@ -1,6 +1,6 @@
 package service;
 
-import domain.Town;
+import model.Town;
 
 public interface ITownService extends IBaseService<Town>{
 

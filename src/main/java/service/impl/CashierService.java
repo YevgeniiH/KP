@@ -1,6 +1,6 @@
 package service.impl;
 
-import domain.Cashier;
+import model.Cashier;
 import service.ICashierService;
 
 public class CashierService extends BaseService<Cashier> implements ICashierService {

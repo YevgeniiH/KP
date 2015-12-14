@@ -2,7 +2,7 @@ package service.impl;
 
 import java.util.List;
 
-import domain.Base;
+import model.Base;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import service.IBaseService;

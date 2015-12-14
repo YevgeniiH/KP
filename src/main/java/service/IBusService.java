@@ -1,6 +1,6 @@
 package service;
 
-import domain.Bus;
+import model.Bus;
 
 public interface IBusService extends IBaseService<Bus>{
 	

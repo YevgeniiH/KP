@@ -1,6 +1,6 @@
 package service;
 
-import domain.Base;
+import model.Base;
 
 import java.util.List;
 

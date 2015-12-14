@@ -1,4 +1,4 @@
-/* including package ext-theme-base */
+/* including package ext-theme-Bus */
 /**
  * Creates a background gradient.
  *
@@ -8,7 +8,7 @@
  *     }
  *
  * @param {Color} $bg-color The background color of the gradient
- * @param {String/List} [$type=$base-gradient] The type of gradient to be used. Can either
+ * @param {String/List} [$type=$Bus-gradient] The type of gradient to be used. Can either
  * be a String which is a predefined gradient name, or it can can be a list of color stops.
  * If null is passed, this mixin will still set the `background-color` to $bg-color.
  * The available predefined gradient names are:
@@ -92,7 +92,7 @@
 /** @class Ext.panel.Panel */
 /** @class Ext.tip.Tip */
 /** @class Ext.form.Labelable */
-/** @class Ext.form.field.Base */
+/** @class Ext.form.field.Bus */
 /** @class Ext.form.field.Display */
 /** @class Ext.grid.header.Container */
 /** @class Ext.grid.column.Column */
@@ -158,12 +158,12 @@
  * The default line-height to be used throughout the theme.
  */
 /**
- * @var {string} $base-gradient
- * The base gradient to be used throughout the theme.
+ * @var {string} $Bus-gradient
+ * The Bus gradient to be used throughout the theme.
  */
 /**
- * @var {color} $base-color
- * The base color to be used throughout the theme.
+ * @var {color} $Bus-color
+ * The Bus color to be used throughout the theme.
  */
 /**
  * @var {color} $neutral-color
@@ -803,32 +803,32 @@
  */
 /**
  * @var {color}
- * The base color for the `default` button UI
+ * The Bus color for the `default` button UI
  */
 /**
  * @var {color}
- * The base color for the `default` button UI when the cursor is over the button
+ * The Bus color for the `default` button UI when the cursor is over the button
  */
 /**
  * @var {color}
- * The base color for the `default` button UI when the button is focused
+ * The Bus color for the `default` button UI when the button is focused
  */
 /**
  * @var {color}
- * The base color for the `default` button UI when the button is pressed
+ * The Bus color for the `default` button UI when the button is pressed
  */
 /**
  * @var {color}
- * The base color for the `default` button UI when the button is focused and the cursor
+ * The Bus color for the `default` button UI when the button is focused and the cursor
  * is over the button
  */
 /**
  * @var {color}
- * The base color for the `default` button UI when the button is focused and pressed
+ * The Bus color for the `default` button UI when the button is focused and pressed
  */
 /**
  * @var {color}
- * The base color for the `default` button UI when the button is disabled
+ * The Bus color for the `default` button UI when the button is disabled
  */
 /**
  * @var {color}
@@ -1921,7 +1921,7 @@
  */
 /**
  * @var {color}
- * The base color of Panels
+ * The Bus color of Panels
  */
 /**
  * @var {color}
@@ -2077,7 +2077,7 @@
  */
 /**
  * @var {color}
- * The base color of the framed Panels
+ * The Bus color of the framed Panels
  */
 /**
  * @var {number}
@@ -2301,7 +2301,7 @@
  * True to include the "form-invalid" tip UI
  */
 /**
- * @class Ext.form.field.Base
+ * @class Ext.form.field.Bus
  */
 /**
  * @var {number} $form-field-height
@@ -3442,31 +3442,31 @@
  */
 /**
  * @var {color}
- * The base color of Tabs
+ * The Bus color of Tabs
  */
 /**
  * @var {color}
- * The base color of focused Tabs
+ * The Bus color of focused Tabs
  */
 /**
  * @var {color}
- * The base color of hovered Tabs
+ * The Bus color of hovered Tabs
  */
 /**
  * @var {color}
- * The base color of the active Tabs
+ * The Bus color of the active Tabs
  */
 /**
  * @var {color}
- * The base color of focused hovered Tabs
+ * The Bus color of focused hovered Tabs
  */
 /**
  * @var {color}
- * The base color of the active Tab when focused
+ * The Bus color of the active Tab when focused
  */
 /**
  * @var {color}
- * The base color of disabled Tabs
+ * The Bus color of disabled Tabs
  */
 /**
  * @var {color}
@@ -3927,7 +3927,7 @@
  */
 /**
  * @var {color}
- * The base color of the Tab Bar
+ * The Bus color of the Tab Bar
  */
 /**
  * @var {string/list}
@@ -4031,7 +4031,7 @@
  */
 /**
  * @var {color}
- * The base color of Windows
+ * The Bus color of Windows
  */
 /**
  * @var {number}
@@ -5045,7 +5045,7 @@
  * The horizontal space after the number in the RowNumberer cell
  */
 /**
- * @class Ext.form.field.Base
+ * @class Ext.form.field.Bus
  */
 /**
  * @var {number} $form-field-height
@@ -6004,7 +6004,7 @@
  * This includes cell and row editor fields and fields in widget columns.
  */
 /**
- *  @class Ext.form.field.Base
+ *  @class Ext.form.field.Bus
  */
 /**
  * @var {number}
@@ -6578,7 +6578,7 @@
  * This includes cell and row editor fields and fields in widget columns.
  */
 /**
- *  @class Ext.form.field.Base
+ *  @class Ext.form.field.Bus
  */
 /**
  * @var {number}
@@ -7379,7 +7379,7 @@
  * @var {string}
  * The cursor style for the remove glyph.
  */
-/* including package ext-theme-base */
+/* including package ext-theme-Bus */
 /**
  * @class Global_CSS
  */
@@ -7461,7 +7461,7 @@
  */
 /**
  * @var {string}
- * The base path relative to the CSS output directory to use for theme resources.  For example
+ * The Bus path relative to the CSS output directory to use for theme resources.  For example
  * if the theme's images live one directory up from the generated CSS output in a directory
  * named 'foo/images/', you would need to set this variable to '../foo/' in order for the image
  * paths in the CSS output to be generated correctly. By default this is the same as the
@@ -7473,7 +7473,7 @@
  */
 /* including package sencha-charts */
 /*
-  Copied from touch/resources/themes/stylesheets/sencha-touch/base/src/chart/_AbstractChart.scss
+  Copied from touch/resources/themes/stylesheets/sencha-touch/Bus/src/chart/_AbstractChart.scss
 */
 /* line 8, ../../../sass/src/chart/AbstractChart.scss */
 .x-android-3 .x-surface-wrap, .x-android-3 .x-surface-wrap > * {
